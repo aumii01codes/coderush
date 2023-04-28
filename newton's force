@@ -1,0 +1,11 @@
+//coderush april edition solution of Q1
+
+#include <bits/stdc++.h> // header file includes every Standard library
+using namespace std;
+int main() {
+    int m1, m2, a1, a2, f;
+    cin>>m1>>a1>>m2>>a2;
+    f= (m1 * a1) + (m2 * a2);
+    cout<<f;
+    return 0;
+}
